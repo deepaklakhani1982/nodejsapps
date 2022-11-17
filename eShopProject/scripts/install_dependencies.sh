@@ -1,2 +1,2 @@
-yum install -y nodejs npm
+cd eShopProject
 npm install
