@@ -5,7 +5,7 @@ files:
     destination: /home/ec2-user/apps/nodejsapps
 hooks:
   BeforeInstall:
-    - location: install_dependencies.sh
+    - location: eShopProject/scripts/install_dependencies.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
